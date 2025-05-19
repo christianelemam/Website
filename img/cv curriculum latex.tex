@@ -1,0 +1,438 @@
+% Righe di impostazioni per TeXworks e TeXstudio
+
+% !TEX encoding = UTF-8
+
+% !TEX program = pdflatex
+
+% !TEX spellcheck = en_US
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%lo stile del nostro curriculum
+
+% come vedete ho scelto classic ma potete scegliere
+
+% 'moderncv' 'casual' (si default),'classic', 'oldstyle' o 'banking'
+
+% e i colori 'blue', 'orange', 'green', 'red', 'purple', 'grey' o 'black'
+
+\moderncvstyle{classic}
+
+\moderncvcolor{orange}
+
+
+
+\usepackage{amsmath}
+
+\usepackage{amsfonts}
+
+\usepackage{amssymb}
+
+\usepackage{graphicx}
+
+\setcounter{MaxMatrixCols}{30}
+
+
+% alcuni pacchetti standard
+
+%\usepackage[italian]{babel} % solo se si scrive in italiano
+
+\usepackage[utf8]{inputenx}
+
+\usepackage[left=2cm,right=2cm,top=1.8cm,bottom=2.2cm]{geometry}
+
+
+% questa riga allarga la colonna di sinistra
+
+\setlength{\hintscolumnwidth}{3.7cm}
+
+
+% personal data
+
+\firstname{Christian}
+
+\familyname{El Emam}
+
+\title{Curriculum Vitae}
+
+\address{University of Luxembourg \\ Mathematics Department, Maison du Nombre\\}{6, Avenue de la Fonte}{L-4364, Esch-Sur-Alzette, Luxembourg}
+
+\phone{(+352) 46 66 44 9656}
+
+%\mobile{}
+
+\email{christian.elemam@uni.lu}
+
+\homepage{math.uni.lu/elemam} 
+
+
+
+\fancyfoot[L]{\footnotesize Christian El Emam's Curriculum}
+
+\fancyfoot[R]{\footnotesize pag.~\arabic{page}}
+
+
+\newcommand{\rr}{\mathbb{R}}
+
+\renewcommand{\ss}{\mathbb{S}}
+
+
+\newcommand*{\cventrym}[6]{%
+	\cvline{#1}{%
+		{#2}%
+		\ifx#3\else{{\slshape#3}}\fi%
+		\ifx#4\else{ #4}\fi%
+		\ifx#5\else{ #5}\fi%
+		\ifx#6\else{\newline{}\begin{minipage}[t]{\linewidth}\small#6\end{minipage}}\fi
+}}%
+
+\newcommand*{\cventrynovirg}[6]{%
+	\cvline{#1}{%
+		{\bfseries#2}%
+		\ifx#3\else{{\slshape#3}}\fi%
+		\ifx#4\else{ #4}\fi%
+		\ifx#5\else{ #5}\fi%
+		\ifx#6\else{\newline{}\begin{minipage}[t]{\linewidth}\small#6\end{minipage}}\fi
+}}%
+
+
+
+
+
+\begin{document}
+
+
+\maketitle
+
+
+\section{Personal Information}
+
+\cvline{First name}{Christian}
+
+\cvline{Last name}{El Emam}
+
+\cvline{Date and place of birth}{06/11/1993 in Sesto San Giovanni (Italy)}
+
+\cvline{Nationality}{Italian}
+
+
+
+\section{Current position}
+
+\cventry{January 2021 - now}
+{Postdoctoral researcher}
+{University of Luxembourg}
+{}
+{}
+{Supervisor: Prof. Jean-Marc Schlenker}
+
+
+
+
+
+
+\section{Education}
+
+
+%\cventry{da ottobre 2016}{Dottorato di ricerca in Matematica}{Università degli Studi di Pavia}{}{}{Curriculum: Analisi Matematica}
+
+\cventry{Oct. 2020 - Dec. 2020}
+{Research and development specialist}
+{University of Luxembourg}
+{}
+{}
+{Supervisor: Prof. Jean-Marc Schlenker}
+
+
+\cventry{December 2020}
+{PhD in Mathematics}
+{University of Pavia}
+{}
+{}
+{Thesis title: \emph{Immersions of surfaces into $SL(2,\mathbb C)$ and into the space of geodesics of Hyperbolic space.}\\
+	Advisor: Prof. Francesco Bonsante. \medskip
+}
+
+
+
+\cventry{October 2017}
+{M.Sc. in Mathematics cum laude}
+{University of Milan}
+{}
+{}
+{Thesis title: \emph{Fenchel-Nielsen coordinates for Teichm\"uller space.}\\
+Advisor: Prof. Francesco Bonsante. Co-Advisor: Prof. Gilberto Bini.\medskip
+}
+
+\cventry{Sept. 2016 - Feb. 2017}
+{Erasmus stay} 
+{at Universidad Complutense of Madrid, Master program "Matematicas Avanzadas"}
+{}
+{}
+{}
+
+\cventry{September 2015}
+{Bc. in Mathematics cum laude}
+{University of Milan}
+{}
+{}
+{}
+
+
+\cventry{July 2010}
+{Scientific high school diploma}
+{Liceo Scientifico "Giulio Casiraghi", Cinisello Balsamo (Milan) }
+{}
+{}
+{\medskip}
+
+
+
+
+
+
+\section{Research Interests}
+\cvline{}{Geometric structures on surfaces, hyperbolic geometry, immersions of hypersurfaces in space forms, transition \nobreak{geometry}, higher Teichmüller theory.}
+
+
+
+
+\section{Papers}
+\cventrym{In progress} {(with N. Sagman) "On a Bers theorem for the quasi-Hitchin space of $PSL(3, \mathbb C)$"}{}{}{}{}
+
+\cventrym{In progress} {(with F. Mazzoli, A. Seppi, A. Tamburelli) "A null-hyperKähler structure on the space of minimal surfaces in the Half-Pipe 3-space"}{}{}{}{}
+
+\cventrym{2023}{ "A metric uniformization model for the Quasi-Fuchsian space",}{ submitted, arXiv:2307.07388.}{[$45$ pages]}{}{}
+
+\cventrym{2022}{(with A. Seppi) "Rigidity of minimal Lagrangian diffeomorphisms between spherical cone surfaces",}{ Journal de l'École polytechnique — Mathématiques .}{[$20$ pages]}{}{}
+
+\cventrym{2022}{(with A. Seppi) "On the Gauss map of equivariant immersions in hyperbolic space", } {Journal of Topology, 15: 238-301. https://doi.org/10.1112/topo.12225.} {}{[$64$ pages]}{}
+
+\cventrym{2021}{(with F. Bonsante) "On immersions of surfaces in $SL(2,\mathbb{C})$ and geometric consequences", }{International Mathematics Research Notices, 2021; rnab189, https://doi.org/10.1093/imrn/rnab189. }{[$62$ pages]}{}{}
+
+\cventrym{2020}
+{"On $PSL(2,\mathbb C)$ and on the space of geodesics of $\mathbb H^3$ as Riemannian holomorphic manifolds",} 
+{ Actes du séminaire Théorie Spectrale et Géométrie of Institut Fourier, 
+	Volume 35 (2017-2019), p. 9-21.}{[$12$ pages]}{}{}
+
+\subsection{PhD Thesis}
+\cventrym{2020}
+{PhD Thesis: "Immersions of surfaces into $SL(2,\mathbb C)$ and into the space of geodesics of Hyperbolic space".} 
+{}{}{}{}
+
+
+
+
+
+\section{Given and upcoming talks}
+
+
+\cvline{05/2023}{\emph{"A metric uniformization of quasi-Fuchsian space",} Luxembourg.}
+
+\cvline{02/2023}{\emph{"The holomorphic extension of the Weil-Petersson metric to the quasi-Fuchsian space",} Nice.}
+
+\cvline{07/2022}{\emph{"Minimal Lagrangian maps between closed spherical cone surfaces are isometries",} AMS-EMS-SMF 2022 congress, Grenoble.}
+
+\cvline{06/2022}{\emph{"Le mappe minimali lagrangiane tra superfici sferiche chiuse sono isometrie.",} Pavia.}
+
+\cvline{30/03/2021}{\emph{"Immersions of surfaces into SL(2,C) as an approach to transition geometry",} Florida State University [telematic].}
+
+
+\cvline{9/02/2021}{\emph{"Families of equivariant immersions in $\mathbb{H}^3$ with holomorphic holonomy",} Pangolin seminar
+[telematic:
+\href{https://www.youtube.com/watch?v=AjOhplLR_Rs}{\underline{link to the video}}].
+}
+
+\cvline{05/06/2020}{\emph{"Che forma ha un mondo perfetto? Un approccio alle varietà Riemanniane con molte simmetrie"}, Se mi narri di Matematica, University of Pavia [telematic:
+\href{http://euler.unipv.it/seminaridott/4_El_Emam.html}{\underline{link to the video}}].}
+
+\cvline{21/10/2019}{\emph{"On immersions of surfaces into $PSL(2,\mathbb C)$ and on a tool for constructing holomorphic maps into its character variety"}, Geometry and Topology seminar, University of Luxembourg.}
+
+\cvline{18/04/2019}{\emph{"On  immersions of surfaces into the space of geodesics of $\mathbb{H}^3$: a link between complex-valued metrics and projective structures"}, Séminarie de théorie spectral et géométrie, Institut Fourier, Grenoble.}
+
+\cvline{26/11/2018}{\emph{"On immersions of surfaces in $PSL(2,\mathbb{C})$ and on orthogonal structures on the complexified tangent bundle of surfaces"}, Geometry and Topology seminar, University of Luxembourg.}
+
+
+
+
+\section{Events and seminar organization}
+\cventrynovirg{28/08-01/09/2023}{Co-organizer of the summer school}{ "\href{https://sites.google.com/view/frejus-2023/home}{\underline{Metrics on higher Teichmüller spaces}}"}{in Fréjus.}
+{}{\medskip}
+
+\cventrynovirg{24-26/01/2022}{Co-organizer of the conference}{ "\href{https://math.uni.lu/geometry/winter2022/index.html}{\underline{Geometry Winter Workshop in Luxembourg}}"}{at the University of Luxembourg,}
+{}{\medskip}
+
+
+\cventrynovirg{2021-now}{Co-organizer}{ of the "Geometry and Topology seminar"}{at the Mathematics Department of the University of Luxembourg.}{}{\medskip}
+
+\cventrynovirg{12/05/2020}{Co-organizer of the event }{"International Women in Mathematics Day"}{at the Mathematics Department of the University of Pavia.}
+{}{\medskip}
+
+\cventrynovirg{2020}{Co-organizer and co-founder of the PhD seminar}{ "Se mi narri di Matematica"}{at the Mathematics Department of the University of Pavia.}{}{\medskip}
+
+
+
+
+\section{Thesis supervision}
+\cventrynovirg{2022} {Bachelor final seminar supervision:}{ "The hairy ball theorem and Brouwer fixed-point theorem",} {Aleksandra Frania.}
+{}
+{}
+{}
+
+\cventrynovirg{2021} {Bachelor thesis:} { "Borsuk-Ulam theorem and applications",} {Yanis Bosch.}
+{}
+{}
+
+
+
+\section{Research visits}
+
+
+\cvline{April-May 2019} {Institut Fourier, Grenoble.}{}{}{}
+
+\cvline{October 2020} {Mathematics Department, University of Luxembourg.}{}{}{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\iffalse
+
+
+\section{Student carreer} 
+
+\cvline{2017}
+{Ranking first place in the admission to the Joint PhD Program in Mathematics \emph{"Milano Bicocca-Pavia-INdAM"}}
+{}
+{}
+{}
+{}
+
+\cvline{2015}
+{Scholarship "Incentivi Lauree scientifiche" by University of Milan
+	for being the second-year student with the highest average mark.}
+{}
+{}
+{}
+
+\cvline{2014}
+{Scholarship for merit by University of Milan.}
+{}
+{}
+{}
+{}
+
+\cvline{2014}
+{Scholarship "Incentivi Lauree scientifiche" by University of Milan
+	for being the second-year student with the highest average mark.
+}
+{}
+{}
+{}
+
+
+
+
+\fi
+
+
+
+
+
+\section{Teaching activities}
+\cventry{A. Y. 2023-2024}{University of Luxembourg}{Exercise class: "Analysis 1"}{Bc. in Physics}{}{}
+
+\cventry{A. Y. 2022-2023}{University of Luxembourg}{Exercise class: "Analysis 1"}{Bc. in Physics}{}{}
+
+\cventry{A. Y. 2021-2022}{University of Luxembourg}{Main course: "Numerical Analysis for Physicists"}{Bc. in Physics}{}{}
+
+\cventry{A. Y. 2021-2022}{University of Luxembourg}{Exercise class: "Partial differential equations 1"}{M.Sc. in Mathematics}{}{}
+
+\cventry{A. Y. 2020-2021}{University of Luxembourg}{Exercise class: "Analysis 2"}{Bc. in Mathematics}{}{}
+
+\cventry{A. Y. 2019-2020}{University of Pavia}{Exercise class: "Analysis 1"}{Bc. in Engineering}{}{}
+
+\cventry{A. Y. 2018-2019}{University of Pavia}{Lectures of "Preparation for first-year students in Mathematics"}{Bc. in Mathematics}{}{}
+
+\cventry{A. Y. 2017-2018}{University of Milan}{Exercise class: "Geometry 4"}{Bc. in Mathematics}{}{}
+
+\cventry{A. Y. 2016-2017}{University of Milan}{Exercise class: "Geometry 1"}{Bc. in Mathematics}{}{}
+
+
+
+\iffalse
+
+\section{Attended conferences}
+\cvline{February 2020} {\emph {Jíbiri + Málaga \& Topology Meeting}, University of Málaga.}
+
+\cvline{June 2019} {\emph{Geometrie et dynamique de A a Z}, University of Avignon.}
+
+\cvline{February 2019}{\emph{Geometric Analysis meets Geometric Topology}, University of Heidelberg.}
+
+\cvline{January 2019} {\emph{Winter School on Geometric Structures in Nice} and \emph{Conference on Geometric Structures in Nice}, University of Nice.}
+
+\cvline{August 2018}{\emph{Summer School on Teichmüller Theory and its Connections to Geometry, Topology and Dynamics} and \emph{Workshop on Geometry of Teichmüller Space}, Fields Institute, Toronto.}
+
+\cvline{July 2018}{\emph{Representation varieties and geometric structures in low dimensions}, University of Warwick.}
+
+\cvline{June 2018}{\emph{Pseudo-Riemannian geometry and Anosov representations}, University of Luxembourg.}
+
+\cvline{April 2018}{\emph{Geometry of Teichm\"uller space and mapping class groups}, University of Warwick.}
+
+\cvline{November 2017}{\emph{Geometry, groups and dynamics}, ICTS, Bangalore.}
+
+
+
+\fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Language Skills}
+
+\cvline{Italian}{native speaker}
+
+\cvline{English}{advanced}
+
+\cvline{Spanish}{very good (aunque estoy un poco oxidado)}
+
+\cvline{French}{good}
+
+
+
+
+
+
+
+\vspace{\fill} 
+
+%Luxembourg, \today
+
+
+\end{document}
