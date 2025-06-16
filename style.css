@@ -44,7 +44,7 @@ h1, h2, h3, h4 {
 
 .nav-link:hover, .active, a:hover {
     border-bottom: solid 3px #f6cf06;
-    );
+    ;
 }
 
 .nav-item {
